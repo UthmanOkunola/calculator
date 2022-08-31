@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="center">
+        <form name="forms">
+            <input type="text" name="display" id="screen" disabled>
+            <div class="buttons">
+                <input class="button" type="button" id="eight" data-type="button" value="8">
+                <input class="button" type="button" id="seven" data-type="button" value="7">
+                <input class="button" type="button" id="nine" data-type="button" value="9">
+                <input class="button operator" type="button" id="divide" data-type="operator" value="/"><br>
+                <input class="button" type="button" id="four" data-type="button" value="4">
+                <input class="button" type="button" id="five" data-type="button" value="5">
+                <input class="button" type="button" id="six" data-type="button" value="6">
+                <input class="button  operator" type="button" id="multiply" data-type="operator" value="*"><br>
+                <input class="button" type="button" id="one" data-type="button" value="1">
+                <input class="button" type="button" id="two" data-type="button" value="2">
+                <input class="button" type="button" id="three" data-type="button" value="3">
+                <input class="button operator" class type="button" id="subtract" data-type="operator" value="-"><br>
+                <input class="button" type="button" id="dot" data-type="operator" value=".">
+                <input class="button" type="button" id="zero" data-type="button" value="0">
+                <input class="button operator" type="button" id="addition" data-type="operator" value="+">
+                <input class="button clear" type="button" id="clear"   value="c"><br>
+                <input class="button Delete" type="button" id="delete"   value="Del">
+                <input class="button" type="button" id="percentage" data-type="operator" value="%">
+                <input class=" " type="button" id="equals" onclick="calc()" value="=">
+            </div>
+
+        </form>
+    </div>
+
+    <!-- <script src="../calculator/calculator.js"></script> -->
+    <script src="../calculator/object.js"></script>
+
+</body>
+
+</html>
